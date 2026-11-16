@@ -1,0 +1,26 @@
+# 运行产物与缓存（脚本可重建，不入库）
+output/
+支撑文件/问题一/output/
+支撑文件/问题三/visualization/figures/
+支撑文件/问题二/outputs/
+支撑文件/问题二/reports/
+支撑文件/问题二/data/cleaned/
+支撑文件/问题二/data/raw/
+支撑文件/问题二/config/
+支撑文件/问题二/.local/
+支撑文件/问题二/.cache/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器与系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
